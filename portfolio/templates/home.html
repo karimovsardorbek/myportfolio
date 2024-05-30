@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>
-<body>
-    <h1>My Portfolio</h1>
-    <ul>
-    </ul>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}Home - My Portfolio{% endblock %}
+{% load static %}
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Discover my projects and skills</p>
+        <a href="{% url 'projects' %}" class="btn btn-primary btn-lg">View Projects</a>
+    </div>
+</section>
+{% endblock %}

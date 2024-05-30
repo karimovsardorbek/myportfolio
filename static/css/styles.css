@@ -1,0 +1,13 @@
+/* static/css/styles.css */
+
+.hero {
+    background: url("../images/hero-bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
